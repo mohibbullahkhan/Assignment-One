@@ -106,10 +106,11 @@
 .customer-review{
     text-align: center;
     margin-top: 100px;
+    
 }
 .reviews{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .customer-review-heading{
@@ -118,11 +119,37 @@
 }
 .colums{
     width: 366.67px;
+    height: 243px;
     margin-top: 80px;
-    box-shadow: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    text-align: start;
+    padding: 10px;
 
 }
 .customer-profile{
     display: flex;
     gap: 20px;
+}
+.star{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.customer-desc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+}
+.date{
+    color: gray;
+}
+
+.wc-main{
+    text-align: center;
+    margin-top: 100px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
 }
