@@ -32,6 +32,10 @@
     border: none;
     border-radius: 5px;
 }
+.btn:hover{
+    background-color: yellow;
+    color: black;
+}
 .signup{
     width: 132px;
     height: 48px;
@@ -155,7 +159,8 @@
     text-align: center;
 }
 .contact .text{
-    margin-top: 40px;
+    margin-top: 50px;
+    
 }
 .formsec{
     width: 400px;
